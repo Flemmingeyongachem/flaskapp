@@ -1,0 +1,21 @@
+make sure you have python installed on your system
+make sure you have installed mysql and perharps mysql workbench on your system
+open the unzipped file in your favourite editor
+
+
+the virtual environment name is env
+in the terminal type the following and hit enter to activate the virtual environment
+
+env/scripts/activate
+
+the command above is for windows machines
+
+if the command runs successfully, you will see
+
+(env) before the current path 
+
+run your project using
+
+uvicorn api.main:app --reload 
+
+now visit http://127.0.0.1:8000/docs to see your api docs
